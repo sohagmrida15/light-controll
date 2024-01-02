@@ -18,12 +18,12 @@ position: relative;
 }
 
 #on{
-    background-image: url(/on.jpg);
+    background-image: url(on.jpg);
     display: none;
     
 }
 #off{
-    background-image: url(/off.jpg);
+    background-image: url(off.jpg);
     
 
 }
