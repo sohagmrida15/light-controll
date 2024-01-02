@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="on" class="box"></div>
+        <div id="off" class="box"></div> 
+        <button id="OnBtn">Turn On</button>
+        <button id="OffBtn">Turn Off</button>
+    </div>
+
+
+<script>
+    var onbtn = document.getElementById("OnBtn");
+    var offbtn = document.getElementById("OffBtn")
+    onbtn.addEventListener("click", function(){ 
+        var on = document.getElementById("on");
+        var off = document.getElementById("off");
+        var offbtn = document.getElementById("OffBtn")
+        on.style.display="block";
+        off.style.display="none";
+        onbtn.style.display="none";
+        offbtn.style.display="block"; 
+     });
+    offbtn.addEventListener("click", function(){ 
+        var on = document.getElementById("on");
+        var off = document.getElementById("off");
+        on.style.display="none";
+        off.style.display="block";
+        onbtn.style.display="block";
+        offbtn.style.display="none"; 
+     });
+
+</script>
+</body>
+</html>

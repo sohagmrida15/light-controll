@@ -1,0 +1,46 @@
+body{
+background-color: cadetblue;
+position: relative;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    margin: 50px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+#on{
+    background-image: url(/on.jpg);
+    display: none;
+    
+}
+#off{
+    background-image: url(/off.jpg);
+    
+
+}
+button{
+    background-color: chartreuse;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 400px;
+    transform: translate(-50%);
+}
+#OnBtn{
+    display: block;
+}
+#OffBtn{
+    display: none;
+}
